@@ -1,0 +1,10 @@
+import numpy as np
+x = np.array(eval(input()), dtype=str)
+y= np.array(eval(input()), dtype=str)
+a=np.char.equal(x,y)
+a=np.char.not_equal(x,y)
+a=np.char.greater_equal(x,y)
+a=np.char.greater(x,y)
+a=np.char.less(x,y)
+a=np.char.less_equal(x,y)
+print(a)
