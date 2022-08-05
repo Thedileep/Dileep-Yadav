@@ -1,0 +1,55 @@
+h1{
+    color: rgb(59, 243, 8);
+    text-align: center;
+    text-overflow: ellipsis;
+    text-shadow: 1ch;
+    grid-template: auto;
+    text-transform:capitalize;
+    padding: 4%;
+    align-self: start;
+}
+
+div{
+    background-color: #141413;
+
+}
+div+ul,a{
+    font-size:60px;
+    font-weight: 100;
+    font-optical-sizing:2%;
+    color: white;
+    font-display:initial;
+    font-size-adjust: inherit;
+    padding: 10px;
+    }
+p,li{
+    color:darkgreen;
+}
+h3{color: aqua;
+
+}
+h2{
+    color: crimson;
+    text-align: center;
+    animation:forwards;
+    animation-delay: 3s;
+    animation-direction: initial;
+    animation-iteration-count: infinite;
+    font-size: larger;
+    display: grid;
+    font-display:initial;
+}
+p{
+    color: blue;
+
+    border: 2%;
+}
+h4{
+    color:red;
+    text-align: right;
+    text-shadow: rgb(59, 243, 8);
+    text-overflow: ellipsis;
+    text-transform: capitalize;
+    font-size: larger;
+    padding: 10px;
+}
